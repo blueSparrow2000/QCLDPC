@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe61af4-d724-496c-8bb7-493f94f2b333" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/QCLDPC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QCLDPC_sampler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bit_flip_decoder_sequential.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/block_recover.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubiner_sparsifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formatter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gauss_elim.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matrix_mul.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mesh_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submatrix_sampler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verifier.py" afterDir="false" />
+    <list default="true" id="9fe61af4-d724-496c-8bb7-493f94f2b333" name="변경" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +22,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "blueSparrow2000"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/blueSparrow2000/QCLDPC.git",
+    "accountId": "de45f533-3b69-486b-9ddd-70e9c823d570"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="32Is6WSwP92VpQFaGsvxOain5pA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,8 +51,9 @@
     "Python.mesh_test.executor": "Run",
     "Python.util.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/kingc/PycharmProjects/LDPC/threshold_analysis.py",
+    "last_opened_file_path": "C:/Users/kingc/PycharmProjects/LDPC/README.md",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
@@ -77,6 +73,19 @@
       <option name="presentableId" value="Default" />
       <updated>1757119245804</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1757125296799</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757125296799</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
