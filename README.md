@@ -1,12 +1,5 @@
 # QC LDPC recovery
-This project aims to recover H matrix of a LDPC code without candidate set on a noisy channel      
-
-Final goal is to fully recover Parity Check Matrix(H) of a NAND flash memory      
-
-[Theoretical background][link]
-
-[link]:https://bluesparrow2000.github.io/paperreview/LDPC/
-
+This project aims to recover H matrix of a LDPC code without candidate set on a noisy channel       
 
 ## Installations
 This project is based on python. Below are the packages that needs to be installed:
@@ -18,18 +11,32 @@ matplotlib
 
 ## Files
 - main.py
-An executable file based on paper 'progressive reconstruction of LDPC H matrix ...'
+An executable file based on paper 'Progressive reconstruction of large QCLDPC codes over a noisy channel'             
 - gauss_elim.py      
-Original code for fast gaussian elimination on GF2 (binary matrix)
-- extracter.py       
-Extracts parity check vector from ECO matrix                  
-- verifier.py               
-Format H matrix into diagonal format and verify if it is same as the original one     
-- dubiner_sparsifier.py        
+Original code for fast gaussian elimination on GF2 (binary matrix)          
+- formatter.py           
+Make standard H matrix format (diagonal on parity part)         
+- submatrix_sampler.py             
+Sample row and column          
+- dubiner_sparsifier.py         
 Sparsify a binary matrix       
+- bit_flip_decoder_sequential.py         
+Decode using hard decision (no soft information)         
+- block_recover.py          
+Generate all cyclic shifts of a QC-LDPC parity check vector              
+- QCLDPC_sampler.py       
+Sample QC LDPC H matrix and codewords       
+- variables.py          
+Contains important parameters             
+- verifier.py                
+Format H matrix into diagonal format and verify if it is same as the original one  
+- util.py          
+Save matrix into image file and data into text/csv file
 
-## version history
-2025.09.07 Collected functions that are necessary for QC LDPC testing
+
+## version history     
+2025.09.06 Selected necessary functions from prior project LDPC
+2025.09.07 Revised functions and conducted QC LDPC testing
 
 
 ## License

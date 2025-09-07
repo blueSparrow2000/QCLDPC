@@ -40,6 +40,11 @@ linearly independent한 놈을 쓸때 의미가 있는거다
 1. dubiner sparsification에서 더 strict하게 버킷을 검사? 
 2. 더 많은 col을 검사 수행
 
+
+=> 질문해야 하는 내용: 가짜 듀얼벡터가 너무 많이 찾아져서 iterative decoding 을 수행하면 틀린답이 너무 많이 찾아진다
+이걸 어떻게 극복했는지
+* 잘못된 벡터를 찾으니 성능이 뚝 떨어지고 심지어는 시간도 너무 많이 걸리게됨 
+
 '''
 
 # target H matrix
@@ -95,8 +100,8 @@ decoding_codeword_matrix = np.copy(A)
 
 # submatrix sampling ratio
 # note: for better performance, ms < ns
-col_factor = 0.85  # 0.8  # 0.5
-row_factor = 0.85  # 0.8 # 0.5  # 0.3
+col_factor = 0.8  # 0.8  # 0.5
+row_factor = 0.8  # 0.8 # 0.5  # 0.3
 
 decode_num = 20 # loop N times
 for i in range(decode_num):

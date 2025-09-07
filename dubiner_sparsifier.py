@@ -31,7 +31,7 @@ def get_N_iter():
 
 def sparsify(Hs, ms,ns, column_swap = True):
     ds = round(ms/2) # hashing 강도
-    w_th= 12 #get_w_th()
+    w_th= 12 + 2#get_w_th()
     Niter = get_N_iter()
     # if not column_swap:
     #     Niter = 1
@@ -85,7 +85,7 @@ def sparsify(Hs, ms,ns, column_swap = True):
 
 ########## parallel version ###########
 @njit(parallel=True)
-def sparsify_numba(Hs, ms, ns, ds, w_th=12, Niter=100):
+def sparsify_numba(Hs, ms, ns, ds, w_th=14, Niter=100):
     max_candidates = Niter * 100  # rough upper bound (need tuning)
     Hr_tmp = np.zeros((max_candidates, ns), dtype=np.uint8)
     Hr_count = 0
