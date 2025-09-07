@@ -10,7 +10,7 @@ scipy
 matplotlib                   
 
 ## Files
-- main.py
+- main.py                 
 An executable file based on paper 'Progressive reconstruction of large QCLDPC codes over a noisy channel'             
 - gauss_elim.py      
 Original code for fast gaussian elimination on GF2 (binary matrix)          
@@ -35,8 +35,8 @@ Save matrix into image file and data into text/csv file
 
 
 ## version history     
-2025.09.06 Selected necessary functions from prior project LDPC
-2025.09.07 Revised functions and conducted QC LDPC testing
+2025.09.06 Selected necessary functions from prior project LDPC          
+2025.09.07 Revised functions and conducted QC LDPC testing              
 
 
 ## License
